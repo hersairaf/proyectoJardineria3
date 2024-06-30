@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera paginan't</title>
+</head>
+<body>
+    <h1>Wena po</h1>
+    <br>
+    {% for cliente in clientes %}
+
+        {{cliente.rut}}, {{cliente.nombre}}, {{cliente.apaterno}}, {{cliente.amaterno}}, {{cliente.email}}, {{cliente.fono}}<br>
+    {% endfor %}
+</body>
+</html>
